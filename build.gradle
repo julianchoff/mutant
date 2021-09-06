@@ -2,6 +2,7 @@ plugins {
 	id 'org.springframework.boot' version '2.5.4'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
+	id 'com.google.cloud.tools.appengine' version '2.4.2'
 }
 
 group = 'com.meli.mutantes.challenge'
@@ -10,9 +11,18 @@ sourceCompatibility = '1.8'
 
 repositories {
 	mavenCentral()
+	gradlePluginPortal()
+}
+
+javadoc {
+    options.encoding = 'UTF-8'
 }
 
 dependencies {
+	appengine.deploy.projectId = 'GCLOUD_CONFIG'
+	appengine.deploy.version = 'GCLOUD_CONFIG'
+	implementation group: 'org.springframework.cloud', name: 'spring-cloud-gcp-starter-sql-mysql', version: '1.2.8.RELEASE'
+	implementation group: 'org.springframework.cloud', name: 'spring-cloud-gcp-starter', version: '1.2.8.RELEASE'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'junit:junit:4.13.2'
