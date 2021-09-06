@@ -1,13 +1,4 @@
-runtime: java
-env: flex
-beta_settings:
-  cloud_sql_instances: is-mutant-meli-db=tcp:3306
-runtime_config:
-  jdk: openjdk8
+runtime: java11
+instance_class: F1
 env_variables:
   SPRING_PROFILES_ACTIVE: "gcp,mysql"
-handlers:
-- url: /.*
-  script: this field is required, but ignored
-manual_scaling: 
-  instances: 1
