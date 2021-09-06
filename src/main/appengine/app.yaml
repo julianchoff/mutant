@@ -1,5 +1,7 @@
 runtime: java
 env: flex
+beta_settings:
+  cloud_sql_instances: is-mutant-meli-db=tcp:3306
 runtime_config:
   jdk: openjdk8
 env_variables:
