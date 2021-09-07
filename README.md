@@ -5,3 +5,7 @@ API para verificar si un ADN enviado corresponde a un mutante o un humano. Adici
 - Spring Boot
 - Gradle
 - MySQL
+# Arquitectura
+Se utilizó una arquitectura de capas del módulo de spring framework , spring boot.
+![image](https://user-images.githubusercontent.com/65981603/132271031-5bba020a-84cf-453f-ba94-1ad44672d999.png)
+
