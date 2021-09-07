@@ -21,7 +21,7 @@ import io.swagger.annotations.ApiResponses;
 
 @RestController
 @RequestMapping("v1")
-@Api(tags = {"Controlador donde se realizan operaciones de validación de ADN"})
+@Api(tags = {"Controlador donde se realizan operaciones de validaciÃ³n de ADN"})
 public class MutanteRestController {
 	
 	@Autowired
@@ -32,8 +32,8 @@ public class MutanteRestController {
 	@PostMapping("/mutant")
     @ApiOperation("Verifica si un humano es mutante por medio de un ADN")
     @ApiResponses(value = {
-            @ApiResponse(code = 200, message = "Se realizó la validación exitosa de mutante y si el ADN no existe se guarda correctamente!!"),
-            @ApiResponse(code = 403, message = "Se realizó la validación exitosa de humano y si el ADN no existe se guarda correctamente!!")
+            @ApiResponse(code = 200, message = "Se realizÃ³ la validaciÃ³n exitosa de mutante y si el ADN no existe se guarda correctamente!!"),
+            @ApiResponse(code = 403, message = "Se realizÃ³ la validaciÃ³n exitosa de humano y si el ADN no existe se guarda correctamente!!")
     })
 	public ResponseEntity<Boolean> validarAdn(@RequestBody MutanteDTO mutante) throws ApiException {
 		boolean esMutante = mutanteService.validarAdn(mutante);
@@ -42,10 +42,10 @@ public class MutanteRestController {
 	
 
     @GetMapping("/stats")
-    @ApiOperation("Realiza la consulta de las estadísticas de los ADN analizados")
+    @ApiOperation("Realiza la consulta de las estadÃ­sticas de los ADN analizados")
     @ApiResponses(value = {
-            @ApiResponse(code = 200, message = "Se realizó la consulta de las estadísticas correctamente"),
-            @ApiResponse(code = 500, message = "Error interno en el servidor al procesar la petición")
+            @ApiResponse(code = 200, message = "Se realizÃ³ la consulta de las estadÃ­sticas correctamente"),
+            @ApiResponse(code = 500, message = "Error interno en el servidor al procesar la peticiÃ³n")
     })
     public Stats getStats() {
         return mutanteService.getEstadisticas();

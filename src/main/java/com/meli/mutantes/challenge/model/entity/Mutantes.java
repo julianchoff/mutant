@@ -7,7 +7,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * Entidad que representa el análisis de un ADN y si es o no mutante.
+ * Entidad que representa el anÃ¡lisis de un ADN y si es o no mutante.
  */
 @Entity
 @Table(name="mutantes")

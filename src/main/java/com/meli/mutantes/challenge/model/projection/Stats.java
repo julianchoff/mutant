@@ -1,7 +1,7 @@
 package com.meli.mutantes.challenge.model.projection;
 
 /**
- * Representación en objeto DTO de los datos de las estadísticas.
+ * RepresentaciÃ³n en objeto DTO de los datos de las estadÃ­sticas.
  */
 public interface Stats {
 	public Integer getCountMutantDna();

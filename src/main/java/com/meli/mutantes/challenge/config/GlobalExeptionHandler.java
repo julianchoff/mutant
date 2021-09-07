@@ -25,7 +25,7 @@ public class GlobalExeptionHandler {
 	@ExceptionHandler(RuntimeException.class)
 	public ResponseEntity<ExceptionResponse> runtimeException(RuntimeException ex) {
 		ExceptionResponse response = new ExceptionResponse();
-		response.setError("No fue posible tramitar la petición");
+		response.setError("No fue posible tramitar la peticiÃ³n");
 		response.setTimestamp(LocalDateTime.now());
 
 		return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
@@ -34,7 +34,7 @@ public class GlobalExeptionHandler {
 	@ExceptionHandler(Exception.class)
 	public ResponseEntity<ExceptionResponse> internalServerError(Exception ex) {
 		ExceptionResponse response = new ExceptionResponse();
-		response.setError("No fue posible tramitar la petición");
+		response.setError("No fue posible tramitar la peticiÃ³n");
 		response.setTimestamp(LocalDateTime.now());
 
 		return new ResponseEntity<>(response, HttpStatus.INTERNAL_SERVER_ERROR);

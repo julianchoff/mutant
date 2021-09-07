@@ -1,7 +1,7 @@
 package com.meli.mutantes.challenge.controller.dtos;
 
 /**
- * Representación en objeto DTO de los datos del ADN.
+ * RepresentaciÃ³n en objeto DTO de los datos del ADN.
  */
 public class MutanteDTO {
 	

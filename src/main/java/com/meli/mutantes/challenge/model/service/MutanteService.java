@@ -147,8 +147,8 @@ public class MutanteService {
 			int contador = 0;
 			for (
 					// Recorre los inicios de cada diagonal en los bordes de la matriz.
-					Integer diagonal = 1 - matrixDnaLength; // Comienza con un número negativo.
-					diagonal <= matrixDnaLength - 1; // Mientras no llegue a la última diagonal.
+					Integer diagonal = 1 - matrixDnaLength; // Comienza con un nÃºmero negativo.
+					diagonal <= matrixDnaLength - 1; // Mientras no llegue a la Ãºltima diagonal.
 					diagonal += 1 // Avanza hasta el comienzo de la siguiente diagonal.
 					) {
 				contador = 0;
@@ -157,7 +157,7 @@ public class MutanteService {
 						// Recorre cada una de las diagonales a partir del extremo superior izquierdo.
 						Integer vertical = Math.max(0,
 								diagonal), horizontal = -Math.min(0, diagonal); vertical < matrixDnaLength
-										&& horizontal < matrixDnaLength; // Mientras no excedan los límites.
+										&& horizontal < matrixDnaLength; // Mientras no excedan los lÃ­mites.
 						vertical += 1, horizontal += 1 // Avanza en diagonal incrementando ambos ejes.
 						) {
 					arrayOfStringsDiagonal[contador] = dnaMatriz[vertical][horizontal];
@@ -202,7 +202,7 @@ public class MutanteService {
 	}
 
 	/**
-	 * Obtiene el resultado de las estadísticas de las validaciones realizadas.
+	 * Obtiene el resultado de las estadÃ­sticas de las validaciones realizadas.
 	 *
 	 *
 	 */
