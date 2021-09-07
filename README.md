@@ -9,9 +9,11 @@ API para verificar si un ADN enviado corresponde a un mutante o un humano. Adici
 # Arquitectura
 Se utilizó una arquitectura de capas del módulo de spring framework , spring boot.
 ![image](https://user-images.githubusercontent.com/65981603/132271031-5bba020a-84cf-453f-ba94-1ad44672d999.png)
+# Cobertura
+![image](https://user-images.githubusercontent.com/65981603/132272510-b7ea37a4-c1a5-4643-a065-b26ad58cfbf5.png)
 # Despliegue
 Para el despliegue de la aplicación se utilizó Google Cloud Platform
 
 # Documentación
-Se utilizó el framework swagger: https://is-mutant-meli.rj.r.appspot.com/swagger-ui.html#/
+Se utilizó el framework swagger para la documentación del api rest: https://is-mutant-meli.rj.r.appspot.com/swagger-ui.html#/
 
