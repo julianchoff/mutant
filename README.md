@@ -17,6 +17,9 @@ Se logró la siguiente cobertura de pruebas unitarias:
 
 # Despliegue
 Para el despliegue de la aplicación se utilizó Google Cloud Platform
+- Desde la consola de GCP se clona el proyecto
+- Se ejecuta el comando sh gradlew build
+- Paso a paso para el despliegue: https://codelabs.developers.google.com/codelabs/cloud-app-engine-springboot#6
 
 ![image](https://user-images.githubusercontent.com/65981603/132274701-bbb3d688-6ee2-48ac-842b-fc89a4206414.png)
 
