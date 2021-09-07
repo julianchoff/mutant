@@ -26,21 +26,21 @@ Se utilizó el framework swagger para la documentación del api rest: https://is
 - Utilizando la herramienta postman puedo probar de manera local y en nube:
 
   - Nube:
-    -Método:POST
-    -URL:https://is-mutant-meli.rj.r.appspot.com/v1/mutant
-    -Body:{"dna":["CGGATG","CAGTGC","TGATGT","AGTAGA","CACCTA","AGAAGG"]}
+    - Método:POST
+    - URL:https://is-mutant-meli.rj.r.appspot.com/v1/mutant
+    - Body:{"dna":["CGGATG","CAGTGC","TGATGT","AGTAGA","CACCTA","AGAAGG"]}
 
   - Local:
-    -Método:POST
-    -URL: http://localhost:8080/v1/mutant
-    -Body:{"dna":["CGGATG","CAGTGC","TGATGT","AGTAGA","CACCTA","AGAAGG"]}
+    - Método:POST
+    - URL: http://localhost:8080/v1/mutant
+    - Body:{"dna":["CGGATG","CAGTGC","TGATGT","AGTAGA","CACCTA","AGAAGG"]}
 
   - Nube:
-    -Método:GET
-    -URL:https://is-mutant-meli.rj.r.appspot.com/v1/stats
+    - Método:GET
+    - URL:https://is-mutant-meli.rj.r.appspot.com/v1/stats
 
   - Local:
-    -Método:GET
-    -URL: http://localhost:8080/v1/stats
+    - Método:GET
+    - URL: http://localhost:8080/v1/stats
 
 
