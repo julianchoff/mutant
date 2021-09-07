@@ -32,21 +32,21 @@ Se utilizó el framework swagger para la documentación del api rest: https://is
 - Para el consumo de los servicios se puede utilizar por ejemplo la herramienta postman y lanzar peticiones de manera local y en nube:
 
   - Nube:
-    - Método:POST
-    - URL:https://is-mutant-meli.rj.r.appspot.com/v1/mutant
+    - Método: POST
+    - URL: https://is-mutant-meli.rj.r.appspot.com/v1/mutant
     - Body:{"dna":["CGGATG","CAGTGC","TGATGT","AGTAGA","CACCTA","AGAAGG"]}
 
   - Local:
-    - Método:POST
+    - Método: POST
     - URL: http://localhost:8080/v1/mutant
-    - Body:{"dna":["CGGATG","CAGTGC","TGATGT","AGTAGA","CACCTA","AGAAGG"]}
+    - Body: {"dna":["CGGATG","CAGTGC","TGATGT","AGTAGA","CACCTA","AGAAGG"]}
 
   - Nube:
-    - Método:GET
-    - URL:https://is-mutant-meli.rj.r.appspot.com/v1/stats
+    - Método: GET
+    - URL: https://is-mutant-meli.rj.r.appspot.com/v1/stats
 
   - Local:
-    - Método:GET
+    - Método: GET
     - URL: http://localhost:8080/v1/stats
 
 
