@@ -13,5 +13,5 @@ Se utilizó una arquitectura de capas del módulo de spring framework , spring b
 Para el despliegue de la aplicación se utilizó Google Cloud Platform
 
 # Documentación
-https://is-mutant-meli.rj.r.appspot.com/swagger-ui.html#/
+Se utilizó el framework swagger: https://is-mutant-meli.rj.r.appspot.com/swagger-ui.html#/
 
