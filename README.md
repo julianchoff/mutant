@@ -26,7 +26,7 @@ Se utilizó el framework swagger para la documentación del api rest: https://is
 
 # Consumo de los servicios
 
-- Utilizando la herramienta postman puedo probar de manera local y en nube:
+- Para el consumo de los servicios se puede utilizar por ejemplo la herramienta postman y lanzar peticiones de manera local y en nube:
 
   - Nube:
     - Método:POST
