@@ -21,6 +21,9 @@ Para el despliegue de la aplicación se utilizó Google Cloud Platform
 # Documentación
 Se utilizó el framework swagger para la documentación del api rest: https://is-mutant-meli.rj.r.appspot.com/swagger-ui.html#/
 
+![image](https://user-images.githubusercontent.com/65981603/132274415-05012407-1448-4964-805b-9388f6b77a86.png)
+
+
 # Consumo de los servicios
 
 - Utilizando la herramienta postman puedo probar de manera local y en nube:
