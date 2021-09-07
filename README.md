@@ -34,7 +34,7 @@ Se utilizó el framework swagger para la documentación del api rest: https://is
   - Nube:
     - Método: POST
     - URL: https://is-mutant-meli.rj.r.appspot.com/v1/mutant
-    - Body:{"dna":["CGGATG","CAGTGC","TGATGT","AGTAGA","CACCTA","AGAAGG"]}
+    - Body: {"dna":["CGGATG","CAGTGC","TGATGT","AGTAGA","CACCTA","AGAAGG"]}
 
   - Local:
     - Método: POST
